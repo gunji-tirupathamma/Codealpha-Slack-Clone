@@ -1,0 +1,45 @@
+.sidebar{
+    flex: 0.3;
+    background-color: purple;
+    width: 260px;
+    border-top: 1px solid #49274b;
+    color: #fff;
+}
+
+.sidebar > hr{
+    margin: 10px 0;
+    border: 1px solid #49274b;
+}
+.sidebar-head{
+    display: flex;
+    border-bottom: 1px solid #49274b;
+    padding-bottom: 10px;
+    padding: 13px;
+}
+.head-info{
+    flex: 1;
+}
+.head-info >h2{
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.head-info >h3{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+.head-info >h3 >.MuiSvgIcon-root{
+    font-size: 14px;
+    margin-top: 1px;
+    margin-right: 2px;
+    color: green;
+}
+.sidebar-head >.MuiSvgIcon-root{
+    padding: 8px;
+    font-size: 18px;
+    color: #49274b;
+    background-color: #fff;
+    border-radius: 50%;
+}
